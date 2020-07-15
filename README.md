@@ -15,3 +15,5 @@ Services:
 * Glassdoor Interview Questions Search
 * Glassdoor Jobs Search
 * Glassdoor Salaries Search
+
+The services that search Glassdoor make use of Apple's findAndReplaceInText script, which can be found at https://developer.apple.com/library/archive/documentation/LanguagesUtilities/Conceptual/MacAutomationScriptingGuide/ManipulateText.html
