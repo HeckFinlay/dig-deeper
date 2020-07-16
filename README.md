@@ -22,7 +22,7 @@ Limitations
 
 * When certain special characters, such as the ampersand (&), appear in company names the results may not be as desired.
 * Can only be run on selected text where the Services menu is available.
-* It helps to be logged in to the appropriate website(s) in Safari, but Safari need not be open.
+* It helps to be logged in to the appropriate website(s) in your default browser, but your browser doesn't have to be open.
 
 Installation
 
