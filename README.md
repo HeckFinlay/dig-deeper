@@ -26,11 +26,15 @@ Limitations
 
 Installation
 
-1. Download the workflow.zip files.
+1. Download and unzip the workflow.zip files.
 2. Move them to your ~/Library/Services folder.
 3. (Possibly optional) Change permissions for those files so that you have read, write and execute permissions.
 
 To run
-1. Select some text or right click a word.
+1. Select some text and right click it or right click a word.
 2. From the Services submenu, choose your search.
 3. After a pause (AppleScript is not renowned for its speed) the appropriate LinkedIn and/or Glassdoor web page should load with the selected text as your search term(s).
+
+Source code
+
+The best way to see how the services work is to open them in Automator but, if you just want to read the inner AppleScript, you can download the .scpt files and view them in Script Editor.
