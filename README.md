@@ -27,8 +27,8 @@ Limitations
 Installation
 
 1. Download and unzip the workflow.zip files.
-2. Move them to your ~/Library/Services folder.
-3. (Possibly optional) Change permissions for those files so that you have read, write and execute permissions.
+2. Move them to your ~/Library/Services folder, or just open them and confirm you want to install them.
+3. (Possibly optional) Change permissions for the workflow files so that you have read, write and execute permissions.
 
 To run
 1. Select some text and right click it or right click a word.
