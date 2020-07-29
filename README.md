@@ -1,5 +1,5 @@
 # dig-deeper
-A set of Automator services that use AppleScript to perform various LinkedIn and Glassdoor searches on selected text via the macOS Services menu.
+A set of Automator services that use AppleScript to perform various LinkedIn and Glassdoor searches on selected text via the macOS Services menu. See Screenshot.jpg for a visual impression.
 
 Services:
 
@@ -33,7 +33,7 @@ Installation
 To run
 1. Select some text and right click it or right click a word.
 2. From the Services submenu, choose your search.
-3. After a pause (AppleScript is not renowned for its speed) the appropriate LinkedIn and/or Glassdoor web page should load with the selected text as your search term(s).
+3. After a pause (AppleScript is not renowned for its speed) the appropriate LinkedIn and/or Glassdoor web page should load with the selected text searched for.
 
 Source code
 
