@@ -35,7 +35,7 @@ Installation
 To run
 1. Select some text and right click it or right click a word.
 2. From the Services submenu, choose your search.
-3. After a pause (AppleScript is not renowned for its speed) the appropriate LinkedIn and/or Glassdoor web page should load with the selected text searched for.
+3. After a pause (AppleScript is not renowned for its speed) the appropriate LinkedIn and/or Glassdoor web page should load with the selected text as the search terms.
 
 Source code
 
