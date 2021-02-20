@@ -1,5 +1,5 @@
 # dig-deeper
-A set of macOS Automator services that use AppleScript to perform LinkedIn and Glassdoor searches on selected text in any application. 
+A set of macOS Automator services that use AppleScript to perform LinkedIn and Glassdoor searches on selected text in most applications. 
 
 ![Services menu screenshot showing Dig Deeper services](Screenshot.jpg?raw=true)
 
