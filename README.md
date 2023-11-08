@@ -1,9 +1,10 @@
 # dig-deeper
+
 A set of macOS Automator services that use AppleScript to perform LinkedIn and Glassdoor searches on selected text in most applications. 
 
 ![Services menu screenshot showing Dig Deeper services](Screenshot.jpg?raw=true)
 
-Services:
+#### Services:
 
 * LinkedIn and Glassdoor Companies Search
 * LinkedIn and Glassdoor Jobs Search
@@ -18,25 +19,28 @@ Services:
 * Glassdoor Jobs Search
 * Glassdoor Salaries Search
 
-The services that search Glassdoor make use of Apple's findAndReplaceInText script, which can be found at https://developer.apple.com/library/archive/documentation/LanguagesUtilities/Conceptual/MacAutomationScriptingGuide/ManipulateText.html
+The services that search Glassdoor make use of Apple's [findAndReplaceInText](https://developer.apple.com/library/archive/documentation/LanguagesUtilities/Conceptual/MacAutomationScriptingGuide/ManipulateText.html) script. 
 
-Limitations
+#### Limitations
 
-* When certain special characters, such as the ampersand (&), appear in company names the results may not be as desired.
-* Can only be run on selected text where the Services menu is available.
-* It helps to be logged in to the appropriate website(s) in your default browser, but your browser doesn't have to be open.
+* Certain special characters (such as '&'), may produce undesired results.
+* A small minority of applications don't support Services, hence these won't run everywhere.
 
-Installation
+#### Installation
 
-1. Download and unzip the workflow.zip files.
-2. Move them to your ~/Library/Services folder, or just open them and confirm you want to install them.
-3. (Possibly optional) Change permissions for the workflow files so that you have read, write and execute permissions.
+1. Download and unzip the `workflow.zip` files.
+2. Move them to `~/Library/Services`, or just open them and confirm installation.
+3. (Possibly optional) Change permissions for the files so that you have read, write and execute permissions.
 
-To run
-1. Select some text and right click it or right click a word.
+#### Usage
+1. Select some text and right click* it or just right click a word.
 2. From the Services submenu, choose your search.
-3. After a pause (AppleScript is not renowned for its speed) the appropriate LinkedIn and/or Glassdoor web page should load with the selected text as the search terms.
+3. After a pause (AppleScript is not fast) the LinkedIn and/or Glassdoor search results should load in your default browser with the selected text as the search terms.
 
-Source code
+\* Alternatively, the Services submenu is available from the Apple Menu.
 
-The best way to see how the services work is to open them in Automator but, if you just want to read the inner AppleScript, you can download the .scpt files and view them in Script Editor.
+It helps to be already logged in to LinkedIn and Glassdoor (but your browser doesn't have to be open).
+
+#### Source code
+
+The best way to see how the services work is to open them in Automator. For just the inner AppleScript, download the `.scpt` files and view them in Script Editor.
